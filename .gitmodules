@@ -1,0 +1,3 @@
+[submodule "framemagic"]
+  path = framemagic
+  url = https://github.com/shehand96/framemagic.git
