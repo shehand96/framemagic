@@ -49,10 +49,10 @@ body::before{
   font-size:2.6rem;
   color: #fff;
   letter-spacing:0.6px;
-  background: linear-gradient(90deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
-  border-bottom:1px solid rgba(255,255,255,0.06);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
+  background: transparent;
+  border-bottom: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
   text-shadow:0 6px 18px rgba(0,0,0,0.45);
 }
 
@@ -84,7 +84,7 @@ nav a:hover{ background: rgba(255,255,255,0.06); transform:translateY(-2px) }
 }
 .gallery-grid img:hover{ transform: scale(1.03); box-shadow: 0 20px 40px rgba(0,0,0,0.5) }
 
-footer{ text-align:center; padding:20px; color:rgba(255,255,255,0.75); margin-top:20px }
+footer{ text-align:center; padding:20px; color:rgba(255,255,255,0.75); margin-top:20px; background: transparent }
 
 main{ padding:32px }
 
